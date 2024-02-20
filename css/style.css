@@ -71,7 +71,6 @@ nav form input {
 
 nav form input::placeholder{
     color: #fff;
-
 }
 
 .logo {
@@ -187,7 +186,7 @@ header::after {
     color: #fcc204;
 }
 
-.bodi img {
+.body img {
     width: 45em;
     transform: rotate(-25deg);
     filter: drop-shadow(30px 45px 40px #161616);
@@ -240,7 +239,7 @@ header::after {
         align-items: flex-start;
         height: 0;
         overflow: hidden;
-        transition: 0.7;
+        transition: 0.7s;
     }
 
     nav ul li {
@@ -252,10 +251,15 @@ header::after {
         margin-top: 1.5em;
     }
 
+    nav .container .menu-btn{
+        display: inline-block;
+        font-size: 1.4em;
+        cursor: pointer;
+    }
+
     nav .container .nav-toggle {
         height: 16em;
     }
-        
 }
 
 
@@ -313,10 +317,9 @@ header::after {
     .footer .play-icon {
         margin: 0;
     }
-    
 }
 
-@media screen and (max-height:650) {
+@media screen and (max-height:650px) {
     header {
         height: initial;
     }
